@@ -12,4 +12,3 @@ Gallistel starts with a important question in the associative theories of learni
 
 Of course, there are responses to this: the representations of the events gets associated. But again: what are those representations? How the events become represented by means of being experienced, and how those representations works in, say, the absense of the events? 
 
-$$p(iri_i | IRI_i) = p$$
