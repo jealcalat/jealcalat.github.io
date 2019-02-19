@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Extinction from a rationalist perspective, by C.R. Gallistel (Part I)
-subtitle: A information-theoretic approach to extinction and contingency
+subtitle: An information-theoretic approach to extinction and contingency
 tags: [extinction,information theory]
 comments: true
 ---
