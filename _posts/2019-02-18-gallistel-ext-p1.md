@@ -18,11 +18,13 @@ Gallistel look problematic the reliance of operant theorizing on contingency wit
 
 Thus, Gallistel continues, a more general measure of contingency, not constrained to linear dependence, is badly needed. And such a measure is the mutal information between two random variables, defined as $I(X;Y)$
 
-$$ I(X;Y) = H(X) - H(X \mid Y) $$
+$$ I(X;Y) = H(X) + H(Y) - H(X,Y) $$
 
-On which $H(\cdot)$ is the _entropy_ of the random variable $X$, that can be computed as:
+On which $H(\cdot)$ is the _entropy_ of a random variable or it's joint distribution, that can be computed as:
 
 $$H(X) = \sum_{p(X)>0}p(X)\log\Big(\frac{1}{p(X)}\Big)$$
+
+In words, the equation for mutual information says that the mutual information between $X$ and $Y$ is the sum of their individual entropy (or information) minus the entropy of their joint distribution. 
 
 # References
 
