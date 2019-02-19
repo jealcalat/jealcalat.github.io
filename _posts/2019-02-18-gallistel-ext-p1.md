@@ -12,3 +12,18 @@ Gallistel starts with a important question in the associative theories of learni
 
 Of course, there are responses to this: the representations of the events gets associated. But again: what are those representations? How the events become represented by means of being experienced, and how those representations works in, say, the absense of the events? 
 
+# Information-theoretic measure of contingency
+
+Gallistel look problematic the reliance of operant theorizing on contingency without a proper and general measure of contingency. Some operant theorists (e.g., Baum, 1973) defines the contingency as the correlation between the output of a system and it's feedback. But, as Gallistel argue, correlation is a measure of linear dependence. Indeed, the Pearson correlation coefficient $\rho$ is just the cosine of the angle $\theta$ between two vectors $x,y$.
+
+Thus, Gallistel continues, a more general measure of contingency, not constrained to linear dependence, is badly needed. And such a measure is the mutal information between two random variables, defined as $I(X;Y)$
+
+$$ I(X;Y) = H(X) - H(X \mid Y) $$
+
+On which $H(\cdot)$ is the _entropy_ of the random variable $X$, that can be computed as:
+
+$$H(X) = \sum^{p(X)>0}p(X)\log(\frac{1}{p(X)})$$
+
+# References
+
+Baum, W. M. (1973). THE CORRELATION‐BASED LAW OF EFFECT. _Journal of the Experimental Analysis of Behavior_, 20(1), 137-153.
