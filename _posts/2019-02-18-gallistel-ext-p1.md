@@ -22,7 +22,7 @@ $$ I(X;Y) = H(X) - H(X \mid Y) $$
 
 On which $H(\cdot)$ is the _entropy_ of the random variable $X$, that can be computed as:
 
-$$H(X) = \sum^{p(X)>0}p(X)\log(\frac{1}{p(X)})$$
+$$H(X) = \sum_{p(X)>0}p(X)\log\Big(\frac{1}{p(X)}\Big)$$
 
 # References
 
