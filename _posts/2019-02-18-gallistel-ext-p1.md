@@ -14,7 +14,7 @@ Of course, there are responses to this: the representations of the events gets a
 
 # Information-theoretic measure of contingency
 
-Gallistel look problematic the reliance of operant theorizing on contingency without a proper and general measure of contingency. Some operant theorists (e.g., Baum, 1973) defines the contingency as the correlation between the output of a system and it's feedback. But, as Gallistel argue, correlation is a measure of linear dependence. Indeed, the Pearson correlation coefficient $\rho$ is just the cosine of the angle $\theta$ between two vectors $x,y$.
+Gallistel look problematic the reliance of operant theorizing on contingency without a proper and general measure of contingency. Some operant theorists (e.g., Baum, 1973) defines the contingency as the correlation between the output of a system and it's feedback. But, as Gallistel argue, correlation is a measure of linear dependence. Indeed, the Pearson correlation coefficient $\rho$ is just the cosine of the angle $\theta$ between two vectors $\mathbf{x},\mathbf{y}$.
 
 Thus, Gallistel continues, a more general measure of contingency, not constrained to linear dependence, is badly needed. And such a measure is the mutal information between two random variables, defined as $I(X;Y)$
 
