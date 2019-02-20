@@ -33,4 +33,5 @@ $$H(X)=p(Heads)\log\Bigg(\frac{1}{p(Heads)}\Bigg) + p(Tails)\log\Bigg(\frac{1}{p
 # References
 
 Baum, W. M. (1973). THE CORRELATION‐BASED LAW OF EFFECT. _Journal of the Experimental Analysis of Behavior_, 20(1), 137-153.
+
 Gallistel, C. R. (2007). Flawed foundations of associationism? Comment on Machado and Silva (2007). _The American psychologist_. 62(7), 682–685.
