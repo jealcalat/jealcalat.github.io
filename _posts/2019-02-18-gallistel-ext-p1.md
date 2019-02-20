@@ -25,7 +25,7 @@ In words, the equation for mutual information says that the mutual information b
 
 $$H(X) = \sum_{i}p(x_i)\log\Bigg(\frac{1}{p(x_i)}\Bigg)$$
 
-With $p(x_i)$$^1$ as the relative frequency of the $i$-th $x$, and $\log$ is the logarithm base 2 (so information is measured in bits). For example, if $X$ is the result of a coin toss (a Bernoulli trial), then the total information we can have is, with equal probability of the coin comming up heads and tails,
+With $p(x_i)$$^[1]$ as the relative frequency of the $i$-th $x$, and $\log$ is the logarithm base 2 (so information is measured in bits). For example, if $X$ is the result of a coin toss (a Bernoulli trial), then the total information we can have is, with equal probability of the coin comming up heads and tails,
 
 $$H(X) = p(Heads)\log\Bigg(\frac{1}{p(Heads)}\Bigg) + p(Tails)\log\Bigg(\frac{1}{p(Tails)}\Bigg)$$
 $$H(X) = \frac{1}{2}\log(2) + \frac{1}{2}\log(2) = \log(2)=1 $$
