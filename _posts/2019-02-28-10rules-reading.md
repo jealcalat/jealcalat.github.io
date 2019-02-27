@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Review: Ten simple rules for developing good reading habits during graduate school and beyond, by Marcos Méndez
+title: Ten simple rules for developing good reading habits during graduate school and beyond, by Marcos Méndez
 subtitle: An information-theoretic approach to extinction and contingency
 tags: [reading,10 simple rules]
 comments: true
