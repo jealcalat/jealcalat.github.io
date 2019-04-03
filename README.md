@@ -1,4 +1,4 @@
-[jealcalat.github.io][https://jealcalat.github.io/]
+[https://jealcalat.github.io/]
 
 This page is based on beaytifull jekyll by Dean Attali. 
 
