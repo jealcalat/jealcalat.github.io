@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About me
+subtitle: TL;DR
 ---
 
 First: I'm not cool. 
@@ -17,6 +18,6 @@ Sixth: I studied Pharmacy, Chemistry and Biology in college (here in Mexico ther
 
 Seventh: I like to commit heresies. 
 
-Eight: Sometimes I think I'm near to be a pyrrhonian skeptic, but I like to run experiments anyway, and crossing streets without calculating probabilities. 
+Eighth: Sometimes I think I'm near to be a pyrrhonian skeptic, but I like to run experiments anyway, and crossing streets without calculating probabilities. 
 
 Ninth: I don't like self-promoting presumptuous people (which means I don't like me; see First). Science has many of those.
