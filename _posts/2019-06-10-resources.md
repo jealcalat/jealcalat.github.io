@@ -5,9 +5,9 @@ tags: [resources,stats,programming,data-science,python,ML,AI]
 comments: true
 ---
 
-This is a list of **free** resources I have been collecting over the years in my attempt to learn statistics, machine learning and computer science related topics, as well as the math related to those fields. It's not complete (I have a lot more to add), but is a start. Most of the programming resources are in Python 3+. 
+This is a list of **free** resources I have been collecting over the years in my attempt to learn statistics, machine learning and computer science related topics, as well as the math related to those fields. It's not complete (I have a lot more to add), but is a start. Most of the programming resources are in Python 3+ (look at the CS list for introductory resources to learn Python). 
 
-I regard the Udacity courses as especially good. You need an account to take them. 
+The list covers from the fundamentals to advanced topics in the different areas, but is not sorted. I just added elements to the list as they appeared. I regard the Udacity courses as especially good. You need an account to take them. 
 
 ## AI
 
