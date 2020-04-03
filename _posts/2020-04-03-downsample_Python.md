@@ -1,4 +1,9 @@
-# Downsample and crop a video using ffmpeg from Python
+---
+layout: post
+title: Downsample and crop a video using ffmpeg from Python
+tags: [python, ffmpeg]
+comments: true
+---
 
 Batch edition of videos in Linux is straightforward, using `ffmpeg` and a for loop in a shell script. Here I show how to call `ffmpeg` from Python using the `subprocess` module. I found this useful for downsampling and cropping videos for other tasks (in my case, the original videos were too heavy to process them, and I was just interested in some portion of them).
 

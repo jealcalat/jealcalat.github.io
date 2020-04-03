@@ -1,4 +1,11 @@
-# Skinner on science: is not coextensive with statistics
+---
+layout: post
+title: Skinner on science: is not coextensive with statistics
+tags: [scientists]
+comments: true
+---
+
+# 
 
 ![Skinner](/home/mrrobot/Dropbox/web_page_github/jealcalat.github.io/img/skinner.jpg))
 
