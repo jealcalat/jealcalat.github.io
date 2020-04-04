@@ -20,6 +20,7 @@ title: Home
 description: Unknown behavioral scientist
 
 # --- Navigation bar options --- #
+avatar: "/img/EA.png"
 
 # List of links in the navigation bar
 navbar-links:
@@ -46,7 +47,7 @@ navbar-links:
 navbar-col: "#0d0d0d"
 navbar-text-col: "#04A7BE"
 navbar-children-col: "#F5F5F5"
-page-col: "#fde9e9"
+page-col: "#fbf6f6"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 footer-col: "#76bdd5"
