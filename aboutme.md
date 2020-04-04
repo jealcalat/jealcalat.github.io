@@ -4,6 +4,8 @@ title: About me
 subtitle: TL;DR
 ---
 
+[ME](/img/EA.png)
+
 First: I'm not cool. 
 
 Second: I'm a PhD candidate in Behavior Analysis at Centro de Estudios e Investigaciones en Comportamiento (_Center of Studies and Research on Behavior_), in Guadalajara, México. 
