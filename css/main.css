@@ -7,8 +7,8 @@ layout: null
 /* --- General --- */
 
 body {
-  font-family: "Lucida Console", Monaco, monospace; /* 'Lora', 'Times New Roman', serif; */
-  font-size: 12px;
+  font-family: 'Fira Code', 'Times New Roman', serif; /* 'Lora', 'Times New Roman', serif; */
+  font-size: 16px;
   color: #404040;
   position: relative;
   background-color: {{ site.page-col }};
@@ -22,8 +22,8 @@ p {
   margin: 30px 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-weight: 600;
+  'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
 }
 a {
   color: {{ site.link-col }};
@@ -59,7 +59,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 15px inherit;
 }
 
@@ -110,7 +110,7 @@ img {
 .navbar-custom {
   background-color: {{ site.navbar-col }};
   border-bottom: 1px solid #EAEAEA;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
   background-image: url({{ site.navbar-img }});
   background-attachment: fixed;
