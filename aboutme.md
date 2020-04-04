@@ -4,7 +4,7 @@ title: About me
 subtitle: TL;DR
 ---
 
-![ME](/img/EA.png)
+![ME](/img/EA2.png)
 
 First: I'm not cool. 
 
