@@ -5,10 +5,15 @@ subtitle: TL;DR
 ---
 
 ![ME](/img/EA2.png)
-Contact: 
+
+
+*Contact:* 
 
 jealcalat@gmail.com
+
 jaime.alcala@iteso.mx
+
+---
 
 First: I'm not cool. 
 
