@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Individual trial analysis in the peak procedure
