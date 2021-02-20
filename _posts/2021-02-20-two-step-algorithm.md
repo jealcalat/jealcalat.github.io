@@ -2,7 +2,7 @@
 ---
 layout: post
 title: Individual trial analysis in the peak procedure: an implementation of the two-step breakpoing algorithm by Church et al 1994
-# subtitle: Two-step breakpoing algorithm
+subtitle: Two-step breakpoing algorithm
 tags: [timing,algorithm]
 comments: true
 ---
