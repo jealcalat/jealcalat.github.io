@@ -31,8 +31,8 @@ The function is in the following link:
 
 The algorithm have two arguments: 
 
-1.- a vector of response times (please don't confuse with latency, which is the time of the first response; response times is the times of every response, not just the first).
-2.- the trial duration. For example, if peak trial is three times the reinforcement interval, T, trial duration is 3T. 
+1. a vector of response times (please don't confuse with latency, which is the time of the first response; response times is the times of every response, not just the first).
+2. the trial duration. For example, if peak trial is three times the reinforcement interval, T, trial duration is 3T. 
 
 ## Example
 
