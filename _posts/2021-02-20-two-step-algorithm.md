@@ -15,16 +15,15 @@ Buritica, J., & Alcala, E. (2019). Increased generalization in a peak procedure 
 
 Eudave-Patiño, M., Alcalá, E., dos Santos, C.V & Buriticá, J. (2021). Similar attention and performance in female and male CD1 mice in the peak procedure. Manuscript in preparation.
 
-This algorithm maximize the sum of three areas shown in the next figure by an exhaustive search of any posible combination of two pairs of response times (the time in the interval at which the animal responds, not the latency of the first response). Because the product of durations $d_i$ and the absolute difference $|r-r_i|$ are technically areas, we must find the start and stop such that the sum of the three areas is maximized.
+This algorithm maximize the sum of three areas shown in the next figure by an exhaustive search of any posible combination of two pairs of response times (the time in the interval at which the animal responds, not the latency of the first response). Because the product of durations $$d_i$$ and the absolute difference $$|r-r_i|$$ are technically areas, we must find the start and stop such that the sum of the three areas is maximized.
 
 
 $$
 \underset{r,d}{\mathrm{argmax}}~\sum_{i=1}^3d_i|r-r_i|~\forall{i}\in{1,2,3}
 $$
 
-<div align="center">  
- <img src="/img/lhl_diagramm-1.png" width="350">
-</div>
+![cc](/img/lhl_diagramm-1.png width="350")
+
 
 
 The function is in the following link:
