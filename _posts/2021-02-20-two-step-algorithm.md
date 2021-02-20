@@ -2,7 +2,6 @@
 ---
 layout: post
 title: Individual trial analysis in the peak procedure: an implementation of the two-step breakpoing algorithm by Church et al 1994
-subtitle: Two-step breakpoing algorithm
 tags: [timing,algorithm]
 comments: true
 ---
@@ -64,7 +63,8 @@ The object *bps* is a ```data.frame``` of 7 columns: start, stop, spread, r2, mi
 
 ```r
 print(bps)
-#
+# start stop spread       r2  mid        r1        r3
+# 1  44.2 89.4   45.2 2.212389 66.8 0.0678733 0.3311258
 ```
 
 The first two columns are the principal output. Spread is just (stop - start), and mid (middle, or peak time) is just (start + stop) / 2; r1, r2 and r3 the response times in the low state before start, the high rate state between the start and the stop, and the low state after stop.
