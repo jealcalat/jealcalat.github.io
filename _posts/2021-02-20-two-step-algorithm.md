@@ -5,13 +5,13 @@ tags: [timing,algorithm]
 comments: true
 ---
 
-The low-high-low or two step breakpoint algorithm (see below my R implementation), first described in Church et al 1994, is used for the analysis of individual trials in the peak procedure, a timing task for animals on which, after train an aimal to respond after $T$ seconds to obtain food, some trials now are extinction trials of $T\times 3$ (typically) duration.
+The low-high-low or two step breakpoint algorithm (see below our **R** implementation), first described in Church et al 1994, is used for the analysis of individual trials in the peak procedure, a timing task for animals on which, after training an animal to respond after $T$ seconds to obtain food, some extinction trials are introduced, with a duration of $T\times 3$ (typically).
 
-Please cite:
+Please cite us:
 
-Buritica, J., & Alcala, E. (2019). Increased generalization in a peak procedure after delayed reinforcement. Behavioural processes, 169, 103978.
+Buritica, J., & Alcala, E. (2019). Increased generalization in a peak procedure after delayed reinforcement. _Behavioural processes, 169, 103978._
 
-Eudave-Patiño, M., Alcalá, E., dos Santos, C.V & Buriticá, J. (2021). Similar attention and performance in female and male CD1 mice in the peak procedure. Manuscript in preparation.
+Eudave-Patiño, M., Alcalá, E., dos Santos, C.V & Buriticá, J. (2021). Similar attention and performance in female and male CD1 mice in the peak procedure. _Manuscript in preparation._
 
 This algorithm maximize the sum of three areas shown in the next figure by an exhaustive search of any posible combination of two pairs of response times (the time in the interval at which the animal responds, not the latency of the first response). Because the product of durations $d_i$ and the absolute difference $\mid r-r_i\mid$ are technically areas, we must find the start and stop such that the sum of the three areas is maximized.
 
@@ -34,7 +34,7 @@ The algorithm have two arguments:
 
 ## Example
 
-This is a vector with response times from a peak trial from Buriticá & Alcalá (2019). The peak trial have a duration of 180 s, with a T=60 (that is, the reinforcement interval from the start of the trial to the time of reinforcement was 60 s).
+This is a vector with response times from a peak trial from Buriticá & Alcalá (2019). The peak trial have a duration of 180 s ($T\times 3$ with a $T=60$, that is, the reinforcement interval from the start of the trial to the time of reinforcement was 60 s).
 
 
 ```{r}
@@ -66,7 +66,7 @@ print(bps)
 # 1  44.2 89.4   45.2 2.212389 66.8 0.0678733 0.3311258
 ```
 
-The first two columns are the principal output. Spread is just (stop - start), and mid (middle, or peak time) is just (start + stop) / 2; r1, r2 and r3 the response times in the low state before start, the high rate state between the start and the stop, and the low state after stop.
+The first two columns are the principal output. Spread is just _(stop - start)_, and mid (middle, or peak time) is just _(start + stop) / 2_; r1, r2 and r3 the response times in the low state before start, the high rate state between the start and the stop, and the low state after stop.
 
 The next plot shows the distributions of the response times in the peak trial. The dashed line in the center is T=60, and the red lines are the start and stop times identified by ```low1_s1_high_s2_low2```.
 
@@ -74,7 +74,7 @@ The next plot shows the distributions of the response times in the peak trial. T
 ![Peak](/img/peak_trial_with_start_stop.svg)
 
 
-The following code can reproduce the figure
+The following R code can reproduce the above figure:
 
 ```r
 par(mgp = c(2.3, 0.2, 0),
