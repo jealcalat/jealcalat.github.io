@@ -7,7 +7,7 @@ tags: [timing,algorithm]
 comments: true
 ---
 
-The low-high-low or two step breakpoint algorithm (see below my R implementation), first described in Church et al 1994, is used for the analysis of individual trials in the peak procedure, a timing task for animals on which, after train an aimal to respond after $T$ seconds to obtain food, some trials now are extinction trials of $Tx3$ (typically) duration.
+The low-high-low or two step breakpoint algorithm (see below my R implementation), first described in Church et al 1994, is used for the analysis of individual trials in the peak procedure, a timing task for animals on which, after train an aimal to respond after $T$ seconds to obtain food, some trials now are extinction trials of $T\times 3$ (typically) duration.
 
 Please cite:
 
@@ -62,8 +62,9 @@ bps <- low1_s1_high_s2_low2(r_times = r_times, trial_duration = 180)
 
 The object *bps* is a ```data.frame``` of 7 columns: start, stop, spread, r2, mid, r1 and r3.
 
-```{r}
+```r
 print(bps)
+#
 ```
 
 The first two columns are the principal output. Spread is just (stop - start), and mid (middle, or peak time) is just (start + stop) / 2; r1, r2 and r3 the response times in the low state before start, the high rate state between the start and the stop, and the low state after stop.
@@ -76,7 +77,7 @@ The next plot shows the distributions of the response times in the peak trial. T
 
 The following code can reproduce the figure
 
-```{r}
+```r
 par(mgp = c(2.3, 0.2, 0),
     mar = c(4, 4.5, 1, 1))
 plot(
