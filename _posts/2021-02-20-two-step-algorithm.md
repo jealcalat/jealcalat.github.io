@@ -22,7 +22,7 @@ $$
 \underset{r,d}{\mathrm{argmax}}~\sum_{i=1}^3d_i|r-r_i|~\forall{i}\in{1,2,3}
 $$
 
-![Diag](/img/lhl_diagramm-1.png =350x)
+![Diag](/img/lhl_diagramm-1.png)
 
 
 The function is in the following link:
