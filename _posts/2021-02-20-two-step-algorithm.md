@@ -22,7 +22,7 @@ $$
 \underset{r,d}{\mathrm{argmax}}~\sum_{i=1}^3d_i|r-r_i|~\forall{i}\in{1,2,3}
 $$
 
-![cc](/img/lhl_diagramm-1.png width="350")
+![Diag](/img/lhl_diagramm-1.png)
 
 
 
@@ -72,9 +72,9 @@ The first two columns are the principal output. Spread is just (stop - start), a
 
 The next plot shows the distributions of the response times in the peak trial. The dashed line in the center is T=60, and the red lines are the start and stop times identified by ```low1_s1_high_s2_low2```.
 
-<div align="center">
- <img src="/img/peak_trial_with_start_stop.svg" width="450">
-</div>
+
+![Peak](/img/peak_trial_with_start_stop.svg)
+
 
 The following code can reproduce the figure
 
