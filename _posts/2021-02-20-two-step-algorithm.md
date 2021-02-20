@@ -15,15 +15,14 @@ Buritica, J., & Alcala, E. (2019). Increased generalization in a peak procedure 
 
 Eudave-Patiño, M., Alcalá, E., dos Santos, C.V & Buriticá, J. (2021). Similar attention and performance in female and male CD1 mice in the peak procedure. Manuscript in preparation.
 
-This algorithm maximize the sum of three areas shown in the next figure by an exhaustive search of any posible combination of two pairs of response times (the time in the interval at which the animal responds, not the latency of the first response). Because the product of durations $$d_i$$ and the absolute difference $$\mid r-r_i\mid$$ are technically areas, we must find the start and stop such that the sum of the three areas is maximized.
+This algorithm maximize the sum of three areas shown in the next figure by an exhaustive search of any posible combination of two pairs of response times (the time in the interval at which the animal responds, not the latency of the first response). Because the product of durations $d_i$ and the absolute difference $\mid r-r_i\mid$ are technically areas, we must find the start and stop such that the sum of the three areas is maximized.
 
 
 $$
 \underset{r,d}{\mathrm{argmax}}~\sum_{i=1}^3d_i|r-r_i|~\forall{i}\in{1,2,3}
 $$
 
-![Diag](/img/lhl_diagramm-1.png)
-
+![Diag](/img/lhl_diagramm-1.png =350x)
 
 
 The function is in the following link:
@@ -39,7 +38,8 @@ The algorithm have two arguments:
 
 This is a vector with response times from a peak trial from Buriticá & Alcalá (2019). The peak trial have a duration of 180 s, with a T=60 (that is, the reinforcement interval from the start of the trial to the time of reinforcement was 60 s).
 
-```{r }
+
+```{r}
 r_times <- c(28.1, 40.7, 44.2, 44.4, 44.7, 45, 45.4, 47.9, 48.1, 48.3, 48.6, 48.8, 
              49.8, 50.2, 50.7, 51.2, 51.4, 51.7, 51.9, 52.7, 53, 53.5, 53.7, 53.9, 
              54.1, 54.3, 54.9, 55.3, 55.5, 55.7, 55.8, 57.2, 57.4, 57.7, 58.3, 58.5, 
@@ -56,7 +56,7 @@ r_times <- c(28.1, 40.7, 44.2, 44.4, 44.7, 45, 45.4, 47.9, 48.1, 48.3, 48.6, 48.
 
 Now, we'll apply the function 
 
-```{r }
+```{r}
 bps <- low1_s1_high_s2_low2(r_times = r_times, trial_duration = 180)
 ```
 
