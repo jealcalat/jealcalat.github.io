@@ -9,7 +9,7 @@ comments: true
 
 Ayuda a encontrar artículos que tengan relación entre sí (representados mediante un grafo), y sobre todo, para encontrar la literatura más relevante de un campo. Colocar un nombre de paper (por ejemplo, el más importante) en el campo de búsqueda y clic en "bluid a graph"
 
-[https://www.connectedpapers.com/](Connected papers wepage)
+[Connected papers wepage](https://www.connectedpapers.com/)
 
 Para ver su utilidad, bajar hasta **You can use Connected Papers to** para conocer sus diferentes usos.
 
