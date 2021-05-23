@@ -5,9 +5,11 @@ tags: [tips,academic]
 comments: true
 ---
 
+En este post coloco varias aplicaciones (standalone y aplicaciones web) para realizar búsqueda de literatura que pueda servir, por ejemplo, para una revisión y un estado del arte, y para identificar artículos importantes en una determinada área.
+
 ## Connected papers
 
-Ayuda a encontrar artículos que tengan relación entre sí (representados mediante un grafo), y sobre todo, para encontrar la literatura más relevante de un campo. Colocar un nombre de paper (por ejemplo, el más importante) en el campo de búsqueda y clic en "bluid a graph"
+Aplicación web. Ayuda a encontrar artículos que tengan relación entre sí (representados mediante un grafo), y sobre todo, para encontrar la literatura más relevante de un campo. Colocar un nombre de paper (por ejemplo, el más importante) en el campo de búsqueda y clic en "bluid a graph"
 
 [Connected papers wepage](https://www.connectedpapers.com/)
 
@@ -17,11 +19,11 @@ Tutorial [aquí](https://www.youtube.com/watch?v=ArU30ruTIQI)
 
 ## Publish or perish
 
-También ayuda a buscar por campos en Google Scholar o Microsoft Academic. Se pueden ordenar los resultados por número de citas (y por impacto).
+Aplicación *standalone* (para Mac, Windows y Linux). Ayuda a buscar por campos (keywords, palabras en el título, frase exacta, etc) en Google Scholar o Microsoft Academic. Se pueden ordenar los resultados por número de citas (y por impacto) y exportar a csv o excel.
 
-[Página oficial](https://harzing.com/resources/publish-or-perish)
+[Página oficial](https://harzing.com/resources/publish-or-perish) para descarga.
 
-Ver un tutorial para hacer una revisión de literatura
+Ver un tutorial para hacer una revisión de literatura.
 
 [Tutorial](https://harzing.com/blog/2017/02/using-publish-or-perish-to-do-a-literature-review)
 
