@@ -18,11 +18,12 @@ Tutorial [aquí](https://www.youtube.com/watch?v=ArU30ruTIQI)
 ## Publish or perish
 
 También ayuda a buscar por campos en Google Scholar o Microsoft Academic. Se pueden ordenar los resultados por número de citas (y por impacto).
-[página oficial](https://harzing.com/resources/publish-or-perish)
+
+[Página oficial](https://harzing.com/resources/publish-or-perish)
 
 Ver un tutorial para hacer una revisión de literatura
 
-[tutorial](https://harzing.com/blog/2017/02/using-publish-or-perish-to-do-a-literature-review)
+[Tutorial](https://harzing.com/blog/2017/02/using-publish-or-perish-to-do-a-literature-review)
 
 ## sort-google-scholar
 
@@ -30,4 +31,4 @@ Un script de python que realiza búsquedas y ayuda a ordenar por número de cita
 
 El autor tiene un ejemplo trabajado en Google Colab con instrucciones
 
-https://github.com/WittmannF/sort-google-scholar
+[Página de GitHub](https://github.com/WittmannF/sort-google-scholar)
