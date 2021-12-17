@@ -21,8 +21,8 @@ As a PhD candidate you will be admitted to the [Saarbrücken Graduate School of 
 
 ##### Your profile
 * A Master (or equivalent) degree in Computer Science or a closely related field
-* Programming skills in at least one programming language (preferably Python)
-* Background in machine learning and/or data mining
+* Knowledge of at least one programming language (preferably Python)
+* Background in machine learning and/or data mining is a plus
 * Solid mathematical foundation (e.g. probability theory, statistics, calculus, and linear algebra) is a plus
 * Experience with frameworks such as PyTorch, TensorFlow, or similar is a plus
 * For PostDocs: PhD in a closely related area and publications at the following venues: ICML, NeurIPS, ICLR, KDD, WWW, AAAI, AISTATS
@@ -45,9 +45,8 @@ The application should include:
 
 We welcome applications regardless of gender, nationality, ethnic and social origin, religion/belief, disability, age, and sexual orientation.
 <!--  -->
-Applications will be considered as they arrive and until the positions are filled. There is no deadline. The starting date is flexible, sooner is better.
-{:align="justify"}
-
+Applications will be considered as they arrive and until the positions are filled. There is no deadline. The starting date is flexible, sooner is better. Don't hesitate to get in touch if you have any questions.
+{:align="justify"} 
 
 ### Bachelor/Master Thesis
 We offer multiple Bachelor/Master theses in the broad area of trustworthy machine learning. If you are interested in a thesis please send your CV and transcripts of records to Aleksandar Bojchevski via [email](mailto:[insert_lastname]@cispa.de) using the subject line `[Thesis]` and we will arrange a meeting to discuss potential topics.
