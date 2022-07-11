@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Afiliación</a>. Dirección. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Durante la maestría, realicé estudios con modelos de redes neurales con el propósito de modelar computacionalmente un fenómeno de comportamiento económico de decisión intertemporal. 
+    
+Posteriormente, en el doctorado trabajé con modelos matemáticos en comportamiento de fenómenos psicológicos (principalmente en formación de hábitos), así como la adecuación estadística de dichos modelos. También, implementé algoritmos de visión por computadora con inteligencia artificial (IA) para evaluar los efectos de exposición a ciclohexano en la motricidad de modelos animales (un proyecto en colaboración con el Instituto de Fisiología de la la Universidad de Colima). 
+    
+Actualmente, me encuentro inmerso en varios proyectos, uno de los cuales requiere del uso IA para estudiar los trazos y posturas durante la escritura de niños en edad preescolar.
+    
+En todos los casos se trata de proyectos interdisciplinarios en los que he usado herramientas matemáticas, estadísticas y computacionales para modelar fenómenos diferentes. Uno de mis intereses es el uso de IA para estudiar cuantitativamente, y modelar, fenómenos piscológicos y psicobiológicos puede incrementar la precisión y riqueza de los análisis. Otro es conocer más acerca de cómo los seres vivos aprenden estructuras ricas de información imperfecta, a nivel de individuo o en relaciones con otros, a partir de su experiencia con el ambiente cambiante, y si esto puede inspirar nuevas formas de IA y áreas relacionadas.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

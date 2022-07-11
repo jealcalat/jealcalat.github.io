@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Repositorios de clases que he dado en ITESO
 nav: true
 nav_order: 4
 ---
