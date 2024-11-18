@@ -10,16 +10,11 @@ profile:
   image_cicular: false # crops the image to make it circular
   address: >
 
-news: false  # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
-Durante la maestría, realicé estudios con modelos de redes neurales con el propósito de modelar computacionalmente un fenómeno de comportamiento económico de decisión intertemporal. 
-    
-Posteriormente, en el doctorado trabajé con modelos matemáticos en comportamiento de fenómenos psicológicos (principalmente en formación de hábitos), así como la adecuación estadística de dichos modelos. También, implementé algoritmos de visión por computadora con inteligencia artificial (IA) para evaluar los efectos de exposición a ciclohexano en la motricidad de modelos animales (un proyecto en colaboración con el Instituto de Fisiología de la la Universidad de Colima). 
-    
-Actualmente, me encuentro inmerso en varios proyectos, uno de los cuales requiere del uso IA para estudiar los trazos y posturas durante la escritura de niños en edad preescolar.
-    
-En todos los casos se trata de proyectos interdisciplinarios en los que he usado herramientas matemáticas, estadísticas y computacionales para modelar fenómenos diferentes. Uno de mis intereses es el uso de IA para estudiar cuantitativamente, y modelar, fenómenos piscológicos y psicobiológicos puede incrementar la precisión y riqueza de los análisis. Otro es conocer más acerca de cómo los seres vivos aprenden estructuras ricas de información imperfecta, a nivel de individuo o en relaciones con otros, a partir de su experiencia con el ambiente cambiante, y si esto puede inspirar nuevas formas de IA y áreas relacionadas.
+As of February 12 I'm a Data Analyst in ESG at HP Inc, where I develop and optimize processes for data analysis, reporting, and visualization. I also teach a university-level data science course, contributing to the professional development of students in the region. My skills include process automation with Python and Power BI, data wrangling to ensure data quality, and statistical and predictive modeling to support decision-making.
 
+My academic background includes a master’s and doctoral research where I modeled intertemporal economic decisions using neural networks and developed mathematical models of cognitive processes, as well as computer vision and posture tracking algorithms. I collaborated on various interdisciplinary projects, applying mathematical and computational tools to capture patterns in natural phenomena. This experience continues to inspire my work in data science and AI.
