@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /teaching/
-title: cursos
-description: Repositorios de clases que he dado en ITESO
+title: teaching
+description: Courses and materials I've been teaching (Spanish).
 nav: true
 nav_order: 4
 ---
@@ -12,13 +12,15 @@ nav_order: 4
 Curso para alumnos de Licenciatura en Ingeniería Financiera. v2021
 
 ### Contenido:
-  - Notas de clase.
-  - Exámenes y soluciones.
-  - Videos de algunas clases.
 
-## [Análisis estadístico multivariado](https://github.com/jealcalat/Analisis_multivariado)
+- Notas de clase.
+- Exámenes y soluciones.
+- Videos de algunas clases.
 
-Curso para alumnos de Maestría en Análisis de Datos. *en progreso*.
+## [Análisis estadístico multivariado](https://github.com/jealcalat/AEM-ITESO)
+
+Curso para alumnos de Maestría en Análisis de Datos.
 
 ### Contenido:
-  - Notas de clase en jupyter (`R`).
+
+- Notas de clase en jupyter (`R`).
