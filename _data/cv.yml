@@ -2,31 +2,26 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Emmanuel Alcala
     - name: Languages
-      value: English, German
+      value: Spanish, English
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Guadalajara, Mexico
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Experimental psychology.
+        - Mathematical modeling.
+        - Statistical analysis.
+    - title: MSc.
+      institution: University of Guadalajara, Mexico
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
+        - Experimental psychology.
+        - Artificial neural networks.
 
 - title: Experience
   type: time_table
@@ -61,37 +56,33 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
+    - year: 2022-2025
+      items:
+        - National System of Researchers (Mexico), Level Candidate.
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Mathematics
       items:
-        - Description 1.
-        - Description 2.
-
+        - Measurement theory.
+        - Algorithms.
+    - title: Psychology
+      items:
+        - Psychophysics.
+        - Decision making.
+        - Computational cognitive psychology.
+        - Behavioral economics.
+    - title: Artificial Intelligence
+      items:
+        - Machine learning.
+        - Deep learning.
+        - Reinforcement learning.
+        - Natural language processing.
+        - Computer vision.
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Science fiction (reading and writing), cinema, philosophy of mind, philosophy of physics, political philosophy, and history.
